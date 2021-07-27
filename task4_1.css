@@ -1,0 +1,24 @@
+<!Doctype HTML><html><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sue Ellen Francisco"><style>body {
+    background-color: Black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+</style><style>* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+</style><center><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">THE WORLD OF TEXAS.</h1></center><div class="row"><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">Iconic Places </h1><img src="C:\Users\lasya\Documents\html\images\25.jpg" alt="Texas" style="width:300px;height:300px;"></div><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">Tex Mex</h1><img src="C:\Users\lasya\Documents\html\images\6.jpg" alt="Tex Mex" style="width:300px;height:300px;"></div><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">San Antonio River</h1><img src="C:\Users\lasya\Documents\html\images\texas 6.jpg" alt="Mountains" style="width:300px;height:300px;"></div></div><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">Yummy Tamales</h1><img src="C:\Users\lasya\Documents\html\images\Texas 3.jpg" alt="Tamales" style="width:300px;height:300px;"></div><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">The 360 Bridge</h1><img src="C:\Users\lasya\Documents\html\images\texas 5.jpg" alt="The 360 Bridge" style="width:300px;height:300px;"></div><div class="column"><h1 style="font-family:Sue Ellen Francisco;font-size:50px;color:white;">The Saga</h1><img src="C:\Users\lasya\Documents\html\images\texas 8.jpg" alt="The Saga" style="width:300px;height:300px;"></div></div></div></html>
