@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
+    <style>
+        .mid {
+            Font-family: Amatic SC;
+            font-size: 100px;
+            color: Black;
+        }
+    </style>
+</head>
+
+<body background="https://i.pinimg.com/564x/cb/b2/f3/cbb2f3d7c7beef3d2dd9582ad9fdd4f5.jpg">
+    <center class="mid">
+        Enter First Number :
+        <br>
+        <input type="text" id="num1" name="numbox1">
+        <br>Enter Second Number :
+        <br>
+        <input type="text" id="num2" name="numbox2">
+        <br>Result :
+        <br>
+        <input type="text" id="res" name="resultbox">
+        <br>
+        <input type="button" name="clickbtn" value="Add" onclick="add_number()">
+        <input type="button" name="clickbtn" value="Sub" onclick="sub_number()">
+        <input type="button" name="clickbtn" value="Multiply" onclick="mul_number()">
+        <input type="button" name="clickbtn" value="Division" onclick="div_number()">
+
+        <script type="text/javascript">
+            function add_number() {
+                var n1 = parseInt(document.getElementById("num1").value);
+                var n2 = parseInt(document.getElementById("num2").value);
+
+
+                var sum = n1 + n2;
+
+                document.getElementById("res").value = sum;
+            }
+
+            function sub_number() {
+                var n1 = parseInt(document.getElementById("num1").value);
+                var n2 = parseInt(document.getElementById("num2").value);
+                var sub;
+                sub = n1 - n2;
+                document.getElementById("res").value = sub;
+            }
+
+            function mul_number() {
+                var n1 = parseInt(document.getElementById("num1").value);
+                var n2 = parseInt(document.getElementById("num2").value);
+                var mul;
+                mul = n1 * n2;
+                document.getElementById("res").value = mul;
+            }
+
+            function div_number() {
+                var n1 = parseInt(document.getElementById("num1").value);
+                var n2 = parseInt(document.getElementById("num2").value);
+                var div;
+                div = n1 / n2;
+                document.getElementById("res").value = div;
+            }
+        </script>
+</body>
+</center>
+
+</html>
