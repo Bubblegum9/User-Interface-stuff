@@ -1,0 +1,75 @@
+<style>form {
+    font-family: "Bangers", Open sans;
+    text-align: center;
+}
+
+body {
+    background: url("https://wallpapercave.com/wp/wp2483329.jpg");
+}
+
+.input {
+    font-size: 25px;
+    font-family: Bangers;
+    color: gold;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #227093;
+    margin: auto;
+    width: 650px;
+    height: 700px;
+}
+
+.label {
+    font-family: Bangers;
+    background-color: gold;
+    border: none;
+    border-radius: 50px;
+    color: #227093;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.box {
+    background-color: gold;
+    border: solid;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 700px;
+    height: 800px;
+    padding-top: 20px;
+    padding-left: 20px;
+    ;
+    margin: auto;
+    opacity: 0.9;
+}
+
+box:hover {
+    opacity: 1.0;
+}
+
+.radio {
+    text-align: center;
+}
+
+.btn {
+    font-family: Bangers;
+    background-color: #2d3436;
+    border: none;
+    border-radius: 50px;
+    color: gold;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 1
+}
+
+</style>
