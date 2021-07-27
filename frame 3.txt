@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="font-size:45px ; font-family:'Courier New'; color:#82ccdd; background-color:#3c6382">
+        REGISTER NOW!!!
+    </head>
+<marquee direction="down" scrollamount="12">
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/EhAemz1v7dQ" >
+    </iframe>
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/jAhjPd4uNFY">
+    </iframe>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/ODEWEnAm7wU" >
+    </iframe>
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/WIdWjqZsGgg">
+    </iframe>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/8PmM6SUn7Es?list=PLFs4vir_WsTyY31efyHdmtp9l7DpR0Wvi" >
+    </iframe>
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/v6ubvEJ3KGM" >
+    </iframe>
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/bRrfsv9hiX4">
+    </iframe>
+    <iframe width="400" height="300"  src="https://www.youtube.com/embed/FsMWbVrjucg">
+    </iframe>
+</marquee>
+
+</body>
+</html>
